@@ -1,0 +1,9 @@
+.footer__copyrate {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}

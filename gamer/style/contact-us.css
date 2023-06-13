@@ -1,0 +1,84 @@
+.contact-us {
+}
+.contact-us__container {
+  overflow: hidden;
+}
+
+.contact-us__header {
+  text-align: center;
+}
+.contact-us__title {
+}
+.contact-us__subtitle {
+  max-width: 411px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin: auto;
+  margin-top: 1.875rem;
+  margin-bottom: 3.75rem;
+}
+
+.contact-us__form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left:15px;
+}
+.contact-us__email {
+  width: 353px;
+  height: 44px;
+  background:rgba(225, 225, 225, 25%);
+  border-radius: 50px 0px 0px 50px;
+  color: #fff;
+  padding: 0.6875rem 1.875rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+.contact-us__email::placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+.contact-us__button {
+  width: 160px;
+  height: 44px;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+  position: relative;
+  left: -30px;
+  
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+}
+
+
+.contact-us__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.contacts__social {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts__social i {
+  font-size: 1.5rem;
+}
+
+@media (max-width:)

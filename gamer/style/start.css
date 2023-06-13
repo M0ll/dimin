@@ -1,0 +1,122 @@
+.start {
+}
+.start__container {
+  padding: 0 15.6%;
+}
+.start__header {
+  margin-bottom: 100px;
+}
+.start__title_body {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.start__img { 
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.start__img img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.start__title {
+}
+.start__subtitle {
+  max-width: 411px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.advance__container {
+  display: flex;
+}
+.advance__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.advance__percent {
+  font-weight: 700;
+  font-size: 2.25em;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.advance__block {
+  max-width: 324px;
+  margin-top: 55px;
+  margin-bottom: 70px;
+  margin-right: -1px;
+}
+.gradient-1 {
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+.gradient-2 {
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.advance__text {
+  max-width: 306px;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-right: 1.25rem;
+}
+
+.precent-100 {height: 80px;}
+.precent-70 {height: 70px;}
+.precent-50 {height: 30px;}
+.precent-10 {height: 10px;}
+
+
+@media (max-width:1240px) {
+  .start__container {
+    padding: 0;
+  }
+  .start__title_body {
+    justify-content: center;
+  }
+  .start__subtitle {
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (max-width:650px) {
+  .advance__text {
+    margin: 0;
+  }
+}
+
+@media (max-width:550px) {
+  .advance__container {
+    flex-direction: column;
+  }
+  .advance__block {
+    max-width: 100vw;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .advance__text {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+  .start__title {
+    text-align: center;
+  }
+}
+
+@media (max-width:460px) {
+  .start__title_body {
+    flex-direction: column;
+    gap: 0px;
+  }
+}
